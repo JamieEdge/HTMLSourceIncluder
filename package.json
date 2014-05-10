@@ -1,7 +1,10 @@
 {
-    "name": "htmlsourceincluder",
+    "name": "html-source-includer",
     "version": "0.0.1",
     "homepage": "https://github.com/edgy360/HTMLSourceIncluder",
+    "author": "Jamie Edge",
+    "description": "A basic Node.js utility for managing HTML code.",
+    "license": "MIT",
     "scripts": {
       "test": "vows --spec"
     },
@@ -10,5 +13,18 @@
     },
     "engines": {
       "node": ">=0.8"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/edgy360/HTMLSourceIncluder.git"
+    },
+    "keywords": [
+      "html",
+      "include",
+      "merge"
+    ],
+    "preferGlobal": "true",
+    "bin": {
+      "htmlsi": "src/includer.js"
     }
 }
