@@ -1,0 +1,8 @@
+{
+    "name": "htmlsourceincluder",
+    "version": "0.0.1",
+    "homepage": "https://github.com/edgy360/HTMLSourceIncluder",
+    "scripts": {
+      "test": "vows --spec"
+    }
+}

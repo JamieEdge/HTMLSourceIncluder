@@ -15,4 +15,4 @@ vows.describe("Including Files").addBatch({
 			assert.equal(fs.readdirSync("output").length, fs.readdirSync("source").length);
 		}
 	}
-}).run();
+}).export(module);
