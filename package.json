@@ -4,5 +4,8 @@
     "homepage": "https://github.com/edgy360/HTMLSourceIncluder",
     "scripts": {
       "test": "vows --spec"
+    },
+    "devDependencies": {
+      "vows": "0.7.x"
     }
 }
